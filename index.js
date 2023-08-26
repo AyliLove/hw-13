@@ -75,6 +75,7 @@ const initEventListeners = () => {
     });
   }
 
+  
   const saveBtns = document.querySelectorAll(".save-btn");
   for (const saveBtn of saveBtns) {
     saveBtn.addEventListener("click", (e) => {
